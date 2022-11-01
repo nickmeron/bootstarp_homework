@@ -1,0 +1,23 @@
+
+.card-body {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: auto;
+}
+.feedGroup  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+@media (max-width: 800px){
+    .feedGroup {
+      flex-direction: column;
+    }
+  }
